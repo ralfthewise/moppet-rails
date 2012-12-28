@@ -19,9 +19,15 @@ Or install it yourself as:
 
 ## Usage
 
-Add this line to your 'assets/javascripts/application.js' file:
+Add the correct line to your 'assets/javascripts/application.js' file depending on which build of marionette you wish to use:
+
+**Standard**
 
     //= require backbone.marionette
+
+**AMD/RequireJS**
+
+    //= require backbone.marionette_amd
 
 ## Contributing
 
